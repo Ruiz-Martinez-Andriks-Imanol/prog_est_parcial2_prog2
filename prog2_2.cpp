@@ -1,23 +1,23 @@
-/* Autor: Andriks Imanol Ruiz M醨tinez, Realizado: 24/03/2022
+/* Autor: Andriks Imanol Ruiz M谩rtinez, Realizado: 24/03/2022
 Escuela: Universidad del Valle de Mexico Campus Villahermosa
-Materia: Programaci髇 Estructrada
+Materia: Programaci贸n Estructrada
 Ciclo: 01/2022
 
-Este es un programa de ciclos y condicionales en Lenguaje C de la materia de Programaci髇 Estructurada<br>
+Este es un programa de ciclos y condicionales en Lenguaje C de la materia de Programaci贸n Estructurada<br>
 Muestra el uso de:
 
     -Variables tipo unsigned
     -printf para mostrar mensajes y variables
     -scanf
-    -El uso de include para las librer韆s
-    -Uso de la librer韆 math.h
-    -Arreglo por m閠odo de la burbuja
+    -El uso de include para las librer铆as
+    -Uso de la librer铆a math.h
+    -Arreglo por m茅todo de la burbuja
     -Ciclos
     -Contador
     -Condicionales
     -Arreglos
     -#define MAX  para definir cierta cantidad para el arreglo
-    -Comentarios para la documentaci髇 interna del programa
+    -Comentarios para la documentaci贸n interna del programa
 		*/
 #include<stdio.h>
 // Definiciones
@@ -25,13 +25,15 @@ Muestra el uso de:
 #include<math.h>
 //const int TAMANO=50;
 int main(){
+	//Declaraci贸n de variables
 	//int edades[10];
 	unsigned char edades[MAX], aux;
 	unsigned int centro;
 	float media, suma=0, var, desviacion, mediana;
 	int validar;
 	//Leer datos del teclado para llenar el arreglo completo
-	for (int i=0;i<MAX;i++){
+	//Proceso
+	for (int i=0;i<MAX;i++){ //Ciclo
 	//for (int i=0;i<10;i++){
 		do{
 			printf("Introduce la edad del alumno #%d: ", i);
@@ -89,7 +91,7 @@ int main(){
 		centro=MAX/2;
 		mediana=edades[centro];
 	}
-	printf("La mediana es: %.2f\n", mediana);
+	printf("La mediana es: %.2f\n", mediana); //Salida
 	return 0;
 }
 
