@@ -1,4 +1,4 @@
-/* Autor: Andriks Imanol Ruiz Mártinez, Realizado: 24/03/2022
+/* Autor: Andriks Imanol Ruiz Martínez, Realizado: 24/03/2022
 Escuela: Universidad del Valle de Mexico Campus Villahermosa
 Materia: Programación Estructrada
 Ciclo: 01/2022
