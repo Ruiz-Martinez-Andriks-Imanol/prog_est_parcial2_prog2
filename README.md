@@ -1,8 +1,8 @@
 # prog_est_parcial2_prog2
-<p>Autor: Andriks Imanol Ruiz Martínez, Fecha: 17/03/2022 <br>
-Escuela: Universidad del Valle de Mexico Campus Villahermosa <br>
-Materia: Programación Estructurada <br>
-Ciclo: 01/2022</p>
+<p><b>Autor:</b> Andriks Imanol Ruiz Martínez, <b>Fecha:</b> 17/03/2022 <br>
+  <b>Escuela:</b> Universidad del Valle de Mexico <b>Campus</b> Villahermosa <br>
+  <b>Materia:</b> Programación Estructurada <br>
+  <b>Ciclo:</b> 01/2022</p>
 <br>
 <p>Este es un programa de ciclos y condicionales en Lenguaje C de la materia de Programación Estructurada<br>
 Muestra el uso de:
@@ -22,12 +22,11 @@ Muestra el uso de:
     </ul>
     </p>
 <br>
-Objetivo: Hacer un programa que almacena las edades de un salón de clases de 10 alumnos.
-*/
-#include<stdio.h>
+<b>Objetivo:</b> Hacer un programa que almacena las edades de un salón de clases de 10 alumnos.
+
 <br>
 <br>
-<p>Breve descripción: 
+<p><b>Breve descripción:</b> 
 Se trata de un Programa que almacena las edades de un salón de clases de 10 alumnos y deberá calcular lo siguiente:
 <ul>
 </li>La media</li>
